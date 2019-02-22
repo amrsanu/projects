@@ -1,0 +1,18 @@
+To create new app.
+--python manage.py startapp music/nameofapp
+	will create some default files...as shown below.
+
+@Migrations.
+
+@ __init__.py
+--------------shows the parent folder is a package of python.
+@ admin
+--------gives the admin functionality
+@ apps
+-------configuration file for this app/music
+@ models
+---------Blue print of the app.
+@ test
+--------to create testcases to check the bugs
+@views
+-------python functions, takes user request and return them something.
